@@ -1,5 +1,7 @@
 # mAdapt Data Microservice
 
+[![Build Status](https://travis-ci.org/RHoKAustralia/madapt-data-service.svg?branch=master)](https://travis-ci.org/RHoKAustralia/madapt-data-service)
+
 ## About
 
 ### mAdapt
@@ -10,7 +12,7 @@ mAdapt will also collect anonymous data that can help inform service delivery an
 
 ### This repo
 
-This repository contains the code for the web app front end written in React using [`create-react-app`](https://github.com/facebookincubator/create-react-app).
+This repository is for a RESTful data microservice. This service queries the database being fed into by Segment integration in [the front end](https://github.com/RHoKAustralia/madapt-react-frontend) and returns JSON data for use in visualisation and data export.
 
 ## Contributing
 
